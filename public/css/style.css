@@ -1,0 +1,36 @@
+.postbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid 15px rgb(11, 32, 220);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+li{
+    border: 1px;
+}
+
+.postpic{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    height: 500px;
+}
+
+label, span{
+    color: white;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+}
+
